@@ -1,9 +1,68 @@
 <!DOCTYPE html>
 <html>
+<!-- first version of the main page -->
   <head>
     <title>Shannon - Your Learning Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #box1, #box2 {
+      background-color: teal;
+      height: 80px;
+      margin: 10px;
+      font-family: "New Time Roman", Arial;
+      font-weight:bold;
+      border: 2px solid red;
+    }
+    #box1 {
+      font-size:16px;
+      text-align: right;
+      width: 100%;
+      padding: 10px;
+
+    }
+    #box2 {
+      font-size:28px;
+      text-align: center;
+      width: 50%;
+      padding: 10px;
+
+    }
+
+    </style>
   </head>
   <body>
-    <p> This is Shannon </p>
+    <h1> Shannon </h1>
+    <h3> Your Learning Assistant </h3>
+    <!-- Login area -->
+    <!-- Add backend -->
+    <h2>Login </h2>
+    <div id="box1">
+      <form>
+        <input type="text" placeholder= "User name" name="name" value="">
+        <button>Submit!</button>
+      </form>
+    </div>
+    <!-- list of future features -->
+    <div id="box2">
+      <p> Features: </p>
+    </div>
+      <ul>
+        <li> Learning paths </li>
+        <li> Track your progress </li>
+        <li> Your schedule </li>
+        <li> Forum </li>
+    </ul>
+
+    <!-- use in user profile then delete-->
+    <table>
+      <tr>
+        <th> Update date </th>
+        <th> Content added </th>
+        <th> Changed by </th>
+      <tr>
+        <td> 18.02 </td>
+        <td> New table </td>
+        <td> admin </td>
+    </table>
   </body>
 </html>
