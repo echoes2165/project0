@@ -1,0 +1,109 @@
+
+h1 {
+  color:#6C1AD5;
+  text-align:center;
+}
+h3 {
+  color:#F59345;
+  text-align:center;
+}
+table {
+  border: 1px solid black;
+  border-collapse:collapse;
+  width:30%;
+
+}
+th,td {
+  border: 1px solid black;
+  padding:5px;
+  text-align: center;
+}
+th {
+  background-color: lightblue;
+}
+
+/* input[type=text] {
+  background-color: #9932CC;
+}
+
+input[type=password] {
+  background-color: #4B0082;
+} */
+
+button {
+  background-color: #4882F5;
+}
+button:hover {
+  background-color: #053086;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color:#C5D0E6;
+  }
+}
+@media (max-width: 499px) {
+  body {
+    background-color: #9932CC;
+  }
+}
+<style>
+#box1, #box2 {
+  background-color: teal;
+  height: 80px;
+  margin: 10px;
+  font-family: "New Time Roman", Arial;
+  font-weight:bold;
+  border: 2px solid red;
+}
+#box1 {
+  font-size:16px;
+  text-align: center;
+  width: 100%;
+}
+#box2 {
+  font-size:28px;
+  text-align: center;
+}
+
+.grid {
+  background-color: transparent;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap:10px;
+  grid-template-columns: 200px auto 200px;
+}
+.grid-item {
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+#color {
+  color:#6C1AD5;
+}
+
+.navbar {
+ min-height: 30px;
+}
+
+.navbar-brand {
+ padding: 0px 25px;
+ height: 35px;
+ line-height: 10px;
+}
+
+.navbar-toggle {
+ /* (80px - button height 34px) / 2 = 23px */
+ margin-top: 23px;
+ padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+ .navbar-nav > li > a {
+   /* (80px - line-height of 27px) / 2 = 26.5px */
+   padding-top: 6.5px;
+   padding-bottom: 6.5px;
+   line-height: 17px;
+ }
+}
